@@ -65,3 +65,10 @@ body {
   background-color: beige;
   font-family: 'Bebas Neue', cursive;
   font-style: normal; }
+@media only screen and (min-width: 1024px){
+    .navbar-expand-lg .navbar-collapse{ font-size: 20px; justify-content: flex-end;}
+    .footerFlex{display: flex; justify-content:center; padding: 20px;}
+    p, span, li {font-size: 20px;}
+	h1{font-size: 35px;}
+	h3{font-size: 30px;}
+}
