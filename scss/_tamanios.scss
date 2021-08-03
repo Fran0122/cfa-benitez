@@ -1,0 +1,23 @@
+@import "responsive";
+$h1Scrims:50px;
+$aScrims: 30px;
+
+*{margin:0; padding:0;}
+
+.scrims h1{
+    font-size: $h1Scrims;
+    color: $darkor
+}
+.scrims a{
+    font-size: $aScrims;
+    color: $darkor
+}
+@media only screen and (min-width: 1024px){
+    .footerFlex{display: $flex; justify-content:center; padding: 20px;}
+    .footerBg{background-color: black;}
+}
+@media only screen and (max-width:767px){
+    .footerFlex{display: $flex;flex-direction:initial; padding: 20px; margin: 0;}
+    .footerBg{background-color:tomato;}
+    *{margin:0px; padding:0px;}
+}

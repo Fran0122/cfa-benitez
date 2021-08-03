@@ -1,0 +1,67 @@
+.parrafoCFA {
+  background-color: black;
+  color: white; }
+
+.row h3 a {
+  color: indigo; }
+
+.footerBg h3 {
+  color: white;
+  text-align: center; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.scrims h1 {
+  font-size: 50px;
+  color: darkorchid; }
+
+.scrims a {
+  font-size: 30px;
+  color: darkorchid; }
+
+@media only screen and (min-width: 1024px) {
+  .footerFlex {
+    display: flex;
+    justify-content: center;
+    padding: 20px; }
+  .footerBg {
+    background-color: black; } }
+
+@media only screen and (max-width: 767px) {
+  .footerFlex {
+    display: flex;
+    flex-direction: initial;
+    padding: 20px;
+    margin: 0; }
+  .footerBg {
+    background-color: tomato; }
+  * {
+    margin: 0px;
+    padding: 0px; } }
+
+.parrafoCFA {
+  margin-right: 20px;
+  margin-left: 5px;
+  padding: 30px; }
+
+.parrafoCFA {
+  background-color: black;
+  color: white; }
+
+.row h3 a {
+  color: indigo; }
+
+.footerBg h3 {
+  color: white;
+  text-align: center; }
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url("../assets/font/BebasNeueRegular.ttf"); }
+
+body {
+  background-color: beige;
+  font-family: 'Bebas Neue', cursive;
+  font-style: normal; }
