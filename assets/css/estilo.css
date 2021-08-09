@@ -1,17 +1,82 @@
-.parrafoCFA {
-  background-color: black;
-  color: white; }
+@charset "UTF-8";
+.tablaStaffs {
+  display: flex;
+  justify-content: center; }
 
-.row h3 a {
-  color: indigo; }
+* {
+  margin: 0;
+  padding: 0; }
+
+@media only screen and (min-width: 1024px) {
+  .navbar-expand-lg .navbar-collapse {
+    font-size: 20px;
+    justify-content: flex-end; }
+  .footerFlex {
+    display: flex;
+    justify-content: center;
+    padding: 20px; }
+  .footerBg {
+    background-color: black; }
+  p, span, li {
+    font-size: 20px; }
+  h1 {
+    font-size: 35px; }
+  h3 {
+    font-size: 30px; } }
+
+@media only screen and (max-width: 767px) {
+  * {
+    padding: 0;
+    margin: 0; }
+  .footerFlex {
+    display: flex;
+    flex-direction: initial;
+    padding: 20px;
+    margin: 0; }
+  .footerBg {
+    background-color: tomato; }
+  .navbar-expand-lg .navbar-collapse {
+    font-size: 15px;
+    justify-content: flex-end; }
+  p, span, li {
+    font-size: 20px; }
+  .paddingTB {
+    padding: 20px; }
+  h1 {
+    font-size: 25px; }
+  h3 {
+    font-size: 20px; }
+  .row h3 {
+    font-size: 20px; }
+  .row h1 {
+    font-size: 22px; }
+  iframe {
+    width: 90%; } }
+
+.footerBg {
+  background-color: black; }
 
 .footerBg h3 {
   color: white;
   text-align: center; }
 
-* {
-  margin: 0;
-  padding: 0; }
+.logos {
+  height: 10%;
+  text-align: center; }
+
+.iconFooter {
+  transition: 1s; }
+
+.iconFooter:hover {
+  transform: translateY(-20px);
+  cursor: pointer; }
+
+.redesSociales {
+  transition: 1s; }
+
+.redesSociales:hover {
+  color: crimson;
+  cursor: pointer; }
 
 .scrims h1 {
   font-size: 50px;
@@ -21,15 +86,60 @@
   font-size: 30px;
   color: darkorchid; }
 
+.parrafoCFA {
+  background-color: black;
+  color: white; }
+
+/* Pestaña staffs */
+.staff {
+  color: indigo;
+  font-size: 55px;
+  text-align: center; }
+
+th {
+  background-color: lightslategrey;
+  border-top: 4px solid black;
+  border-right: 2px solid red;
+  border-bottom: 4px solid black;
+  border-left: 3px solid indigo;
+  padding: 15px;
+  font-size: 20px; }
+
+.calendario {
+  background-color: crimson; }
+
+.inicioCalendario {
+  color: white; }
+
+.tablaStaffs {
+  display: flex;
+  justify-content: center; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
 @media only screen and (min-width: 1024px) {
+  .navbar-expand-lg .navbar-collapse {
+    font-size: 20px;
+    justify-content: flex-end; }
   .footerFlex {
     display: flex;
     justify-content: center;
     padding: 20px; }
   .footerBg {
-    background-color: black; } }
+    background-color: black; }
+  p, span, li {
+    font-size: 20px; }
+  h1 {
+    font-size: 35px; }
+  h3 {
+    font-size: 30px; } }
 
 @media only screen and (max-width: 767px) {
+  * {
+    padding: 0;
+    margin: 0; }
   .footerFlex {
     display: flex;
     flex-direction: initial;
@@ -37,25 +147,152 @@
     margin: 0; }
   .footerBg {
     background-color: tomato; }
-  * {
-    margin: 0px;
-    padding: 0px; } }
+  .navbar-expand-lg .navbar-collapse {
+    font-size: 15px;
+    justify-content: flex-end; }
+  p, span, li {
+    font-size: 20px; }
+  .paddingTB {
+    padding: 20px; }
+  h1 {
+    font-size: 25px; }
+  h3 {
+    font-size: 20px; }
+  .row h3 {
+    font-size: 20px; }
+  .row h1 {
+    font-size: 22px; }
+  iframe {
+    width: 90%; } }
+
+.tablaStaffs {
+  display: flex;
+  justify-content: center; }
 
 .parrafoCFA {
   margin-right: 20px;
   margin-left: 5px;
   padding: 30px; }
 
-.parrafoCFA {
-  background-color: black;
-  color: white; }
+.paddingTB {
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
-.row h3 a {
-  color: indigo; }
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0; }
+
+.tablaStaffs {
+  display: flex;
+  justify-content: center; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+@media only screen and (min-width: 1024px) {
+  .navbar-expand-lg .navbar-collapse {
+    font-size: 20px;
+    justify-content: flex-end; }
+  .footerFlex {
+    display: flex;
+    justify-content: center;
+    padding: 20px; }
+  .footerBg {
+    background-color: black; }
+  p, span, li {
+    font-size: 20px; }
+  h1 {
+    font-size: 35px; }
+  h3 {
+    font-size: 30px; } }
+
+@media only screen and (max-width: 767px) {
+  * {
+    padding: 0;
+    margin: 0; }
+  .footerFlex {
+    display: flex;
+    flex-direction: initial;
+    padding: 20px;
+    margin: 0; }
+  .footerBg {
+    background-color: tomato; }
+  .navbar-expand-lg .navbar-collapse {
+    font-size: 15px;
+    justify-content: flex-end; }
+  p, span, li {
+    font-size: 20px; }
+  .paddingTB {
+    padding: 20px; }
+  h1 {
+    font-size: 25px; }
+  h3 {
+    font-size: 20px; }
+  .row h3 {
+    font-size: 20px; }
+  .row h1 {
+    font-size: 22px; }
+  iframe {
+    width: 90%; } }
+
+.footerBg {
+  background-color: black; }
 
 .footerBg h3 {
   color: white;
   text-align: center; }
+
+.logos {
+  height: 10%;
+  text-align: center; }
+
+.iconFooter {
+  transition: 1s; }
+
+.iconFooter:hover {
+  transform: translateY(-20px);
+  cursor: pointer; }
+
+.redesSociales {
+  transition: 1s; }
+
+.redesSociales:hover {
+  color: crimson;
+  cursor: pointer; }
+
+.scrims h1 {
+  font-size: 50px;
+  color: darkorchid; }
+
+.scrims a {
+  font-size: 30px;
+  color: darkorchid; }
+
+.parrafoCFA {
+  background-color: black;
+  color: white; }
+
+/* Pestaña staffs */
+.staff {
+  color: indigo;
+  font-size: 55px;
+  text-align: center; }
+
+th {
+  background-color: lightslategrey;
+  border-top: 4px solid black;
+  border-right: 2px solid red;
+  border-bottom: 4px solid black;
+  border-left: 3px solid indigo;
+  padding: 15px;
+  font-size: 20px; }
+
+.calendario {
+  background-color: crimson; }
+
+.inicioCalendario {
+  color: white; }
 
 @font-face {
   font-family: 'Bebas Neue';
@@ -63,12 +300,65 @@
 
 body {
   background-color: beige;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue';
   font-style: normal; }
-@media only screen and (min-width: 1024px){
-    .navbar-expand-lg .navbar-collapse{ font-size: 20px; justify-content: flex-end;}
-    .footerFlex{display: flex; justify-content:center; padding: 20px;}
-    p, span, li {font-size: 20px;}
-	h1{font-size: 35px;}
-	h3{font-size: 30px;}
-}
+
+@keyframes efectoPrincipal {
+  0% {
+    color: white; }
+  25% {
+    color: whitesmoke; }
+  50% {
+    color: lightpink; }
+  75% {
+    color: lightsalmon; }
+  100% {
+    color: crimson; } }
+
+@keyframes efectoDos {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes efectoScrims {
+  0% {
+    color: white; }
+  50% {
+    color: violet; }
+  100% {
+    color: blueviolet; } }
+
+.efectoAparecer {
+  animation-name: efectoDos;
+  animation-duration: 2s; }
+
+.row h3 a {
+  color: indigo; }
+
+.parrafoStaff {
+  animation-name: efectoPrincipal;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: initial;
+  color: crimson; }
+
+/* pestaña scrims */
+.scrims {
+  text-align: center; }
+
+.scrims h1 {
+  animation-name: efectoScrims;
+  animation-duration: 2s;
+  color: darkorchid;
+  font-size: 50px; }
+
+.scrims a {
+  animation-name: efectoDos;
+  animation-duration: 2s;
+  color: darkorchid;
+  font-size: 30px; }
+
+.informacionHover:hover {
+  color: blue;
+  cursor: pointer; }

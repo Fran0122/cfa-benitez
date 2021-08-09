@@ -1,8 +1,66 @@
 @import "colores";
+
 @font-face {
 	font-family: 'Bebas Neue';
 	src: url('../assets/font/BebasNeueRegular.ttf')}
-body{background-color: $beige; font-family: 'Bebas Neue', cursive; font-style:normal;}
+body{background-color: $beige; font-family: 'Bebas Neue'; font-style:normal;}
+
+
+
+@keyframes efectoPrincipal{
+    0%{color:$blanco;}
+    25%{color:$blanco2;}
+    50%{color:$rosa2}
+    75%{color:$salmon;}
+    100%{color: $crimson;}
+}
+@keyframes efectoDos{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@keyframes efectoScrims{
+    0%{color: $blanco;}
+    50%{color: $rosa;}
+    100%{color: $violeta2}
+}
+.efectoAparecer{
+    animation-name: efectoDos;
+    animation-duration: 2s;
+}
+.row h3 a{
+    color:$violeta;
+}
+.parrafoStaff{
+    animation-name: efectoPrincipal;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count:initial;
+    color: $crimson;
+}
+/* pestaña scrims */
+.scrims{
+    text-align: center;
+}
+.scrims h1{
+    animation-name: efectoScrims;
+    animation-duration: 2s;
+    color: $darkor;
+    font-size: 50px;
+}
+.scrims a{
+    animation-name: efectoDos;
+    animation-duration: 2s;
+    color:$darkor;
+    font-size: 30px;
+}
+.informacionHover:hover{
+    color: $azul;
+    cursor: pointer;
+}
 
 
 

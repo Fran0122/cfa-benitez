@@ -1,10 +1,54 @@
-
+@import "tamanios";
+$crimson: crimson;
 $negro:black;
 $beige:beige;
 $blanco:white;
 $violeta: indigo;
 $darkor:darkorchid;
+$blanco2: whitesmoke;
+$rosa2: lightpink;
+$salmon: lightsalmon;
+$rosa: violet;
+$violeta2: blueviolet;
+$rojo: red;
+$gris: lightslategrey;
+$azul: blue;
 
-.parrafoCFA{background-color:$negro; color: $blanco;}
-.row h3 a{color: $violeta}
+.footerBg{background-color: $negro;}
 .footerBg h3{color: $blanco; text-align: center;}
+.logos{height: 10%; text-align: center;}
+.iconFooter{transition:1s;}
+.iconFooter:hover{transform: translateY(-20px);cursor: pointer;}
+.redesSociales{transition: 1s;}
+.redesSociales:hover{color:$crimson; cursor: pointer;}
+.scrims h1{
+    font-size: $h1Scrims;
+    color: $darkor
+}
+.scrims a{
+    font-size: $aScrims;
+    color: $darkor
+}
+.parrafoCFA{
+    background-color: $negro;
+    color:$blanco; 
+}
+
+/* Pestaña staffs */
+.staff{
+    color:$violeta;
+    font-size: $fontsize;
+    text-align: center;
+}
+th {
+    background-color:$gris;
+    border-top: 4px solid $negro;
+    border-right: 2px solid $rojo;
+    border-bottom: 4px solid $negro;
+    border-left: 3px solid $violeta;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.calendario{background-color: $crimson;}
+.inicioCalendario{color:$blanco;}

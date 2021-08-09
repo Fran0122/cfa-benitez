@@ -1,23 +1,33 @@
 @import "responsive";
 $h1Scrims:50px;
 $aScrims: 30px;
+$fontsize: 55px;
 
 *{margin:0; padding:0;}
 
-.scrims h1{
-    font-size: $h1Scrims;
-    color: $darkor
-}
-.scrims a{
-    font-size: $aScrims;
-    color: $darkor
-}
+
 @media only screen and (min-width: 1024px){
+    .navbar-expand-lg .navbar-collapse{ font-size: 20px; justify-content: flex-end;}
     .footerFlex{display: $flex; justify-content:center; padding: 20px;}
     .footerBg{background-color: black;}
+    p, span, li {font-size: 20px;}
+	h1{font-size: 35px;}
+	h3{font-size: 30px;}
 }
 @media only screen and (max-width:767px){
-    .footerFlex{display: $flex;flex-direction:initial; padding: 20px; margin: 0;}
+    *{padding: 0; margin: 0;}
+    .footerFlex{display: flex;flex-direction:initial; padding: 20px; margin: 0;}
     .footerBg{background-color:tomato;}
-    *{margin:0px; padding:0px;}
+    .navbar-expand-lg .navbar-collapse{ font-size: 15px; justify-content: flex-end;}
+    p, span, li {font-size: 20px;}
+    .paddingTB{padding: 20px;}
+	h1{font-size: 25px;}
+	h3{font-size: 20px;}
+    .row h3{
+        font-size: 20px;
+    }
+    .row h1{
+        font-size: 22px;
+    }
+    iframe{width:90%;}
 }

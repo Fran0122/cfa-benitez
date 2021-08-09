@@ -1,10 +1,11 @@
 $padding:30px;
 $margin:20px;
 $marginleft:5px;
-
+$padding-container: 0;
 .parrafoCFA{
     margin: {right:$margin;
         left:$marginleft;}
         padding: $padding;
 }
-
+.paddingTB{padding-top: 50px;padding-bottom: 50px;}
+.container-fluid{padding-left: $padding-container;padding-right: $padding-container;}
