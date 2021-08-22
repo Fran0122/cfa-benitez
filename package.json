@@ -7,7 +7,7 @@
     "build-css": "node-sass --include-path scss scss/style.scss assets/css/estilo.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "",
+  "author": "Franco Benitez",
   "license": "ISC",
   "dependencies": {
     "node-sass": "^6.0.1",
