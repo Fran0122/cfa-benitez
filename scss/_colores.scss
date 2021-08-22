@@ -40,15 +40,8 @@ $azul: blue;
     font-size: $fontsize;
     text-align: center;
 }
-th {
-    background-color:$gris;
-    border-top: 4px solid $negro;
-    border-right: 2px solid $rojo;
-    border-bottom: 4px solid $negro;
-    border-left: 3px solid $violeta;
-    padding: 15px;
-    font-size: 20px;
-}
 
 .calendario{background-color: $crimson;}
 .inicioCalendario{color:$blanco;}
+.card{background-color: $blanco2}
+.card-text{color: $crimson; background-color: $beige;}

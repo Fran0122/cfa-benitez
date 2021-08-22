@@ -1,8 +1,4 @@
 @charset "UTF-8";
-.tablaStaffs {
-  display: flex;
-  justify-content: center; }
-
 * {
   margin: 0;
   padding: 0; }
@@ -96,24 +92,18 @@
   font-size: 55px;
   text-align: center; }
 
-th {
-  background-color: lightslategrey;
-  border-top: 4px solid black;
-  border-right: 2px solid red;
-  border-bottom: 4px solid black;
-  border-left: 3px solid indigo;
-  padding: 15px;
-  font-size: 20px; }
-
 .calendario {
   background-color: crimson; }
 
 .inicioCalendario {
   color: white; }
 
-.tablaStaffs {
-  display: flex;
-  justify-content: center; }
+.card {
+  background-color: whitesmoke; }
+
+.card-text {
+  color: crimson;
+  background-color: beige; }
 
 * {
   margin: 0;
@@ -164,10 +154,6 @@ th {
     font-size: 22px; }
   iframe {
     width: 90%; } }
-
-.tablaStaffs {
-  display: flex;
-  justify-content: center; }
 
 .parrafoCFA {
   margin-right: 20px;
@@ -182,10 +168,6 @@ th {
   padding-left: 0;
   padding-right: 0; }
 
-.tablaStaffs {
-  display: flex;
-  justify-content: center; }
-
 * {
   margin: 0;
   padding: 0; }
@@ -279,20 +261,18 @@ th {
   font-size: 55px;
   text-align: center; }
 
-th {
-  background-color: lightslategrey;
-  border-top: 4px solid black;
-  border-right: 2px solid red;
-  border-bottom: 4px solid black;
-  border-left: 3px solid indigo;
-  padding: 15px;
-  font-size: 20px; }
-
 .calendario {
   background-color: crimson; }
 
 .inicioCalendario {
   color: white; }
+
+.card {
+  background-color: whitesmoke; }
+
+.card-text {
+  color: crimson;
+  background-color: beige; }
 
 @font-face {
   font-family: 'Bebas Neue';
@@ -362,3 +342,9 @@ body {
 .informacionHover:hover {
   color: blue;
   cursor: pointer; }
+
+.card h3 {
+  text-align: center; }
+
+.calendario {
+  text-align: center; }
