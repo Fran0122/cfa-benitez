@@ -5,7 +5,6 @@ $fontsize: 55px;
 
 *{margin:0; padding:0;}
 
-
 @media only screen and (min-width: 1024px){
     .navbar-expand-lg .navbar-collapse{ font-size: 20px; justify-content: flex-end;}
     .footerFlex{display: $flex; justify-content:center; padding: 20px;}
